@@ -1,5 +1,40 @@
 @import "~bootstrap/scss/bootstrap";
-body {
-    background-color: lightpink;
-}
+
+.quad {
+    width: 50vw;
+    height: 50vw;
+};
+
+#eat {
+    position: fixed;
+    color: white;
+    background-color: #6AB187; 
+    top: 0; 
+    left: 0;
+};
+
+#fight {
+    position: fixed;
+    color: white;
+    background: #EA6A47;
+    top: 50%;
+    left: 0;
+
+};
+
+#play {
+    position: fixed;
+    color: white;
+    background-color: #F9D423;
+    top: 0; 
+    left: 50%;
+};
+
+#sleep {
+    position: fixed;
+    color: white;
+    background-color: #488A99;
+    top: 50%;
+    left: 50%;
+};
 
