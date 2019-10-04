@@ -1,5 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 
+body {
+    font-family: 'Courier New';
+    font-size: small;
+}
 .quad {
     width: 50vw;
     height: 50vw;
@@ -19,7 +23,6 @@
     background: #EA6A47;
     top: 50%;
     left: 0;
-
 };
 
 #play {
@@ -38,3 +41,19 @@
     left: 50%;
 };
 
+
+// Progress Bar 
+#eatProgress {
+    width: 75%;
+    background-color: grey;
+  }
+  
+  #eatBar {
+    width: 10%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 40px; /* To center it vertically */
+    color: white;
+      }
+  
