@@ -1,4 +1,4 @@
-import utilities from '../helpers/utilities.js';
+import utilities from '../helpers/utilities';
 
 const printSleep = () => {
   let domString = '';
@@ -6,6 +6,9 @@ const printSleep = () => {
   <div class="sleepContainer">
   <h2>Sleep</h2>
   </div>
+  <div id="sleepProgress">
+    <div id="sleepBar"></div>
+    </div>
   `;
   utilities.printToDom('sleep', domString);
 };
