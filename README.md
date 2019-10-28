@@ -13,7 +13,7 @@ Use the buttons on the screen to modify the health quadarants of your Tamagotchi
 ## Screenshot(s)
 
 Page Load
-![Main View]()
+![Main View](https://raw.githubusercontent.com/EmileeA/tamagotchi/master/src/screenshots/Tamagotchi%20-%20load.png)
 
 ## Instructions for how to run the project
 
